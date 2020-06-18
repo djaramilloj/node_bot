@@ -34,7 +34,7 @@ app.put('/quotes', (request, response) => {
 })
 
 app.listen(port, ()=> {
-    console.log('servidor funcionando en http://localhost:8080');
+    console.log('servidor funcionando en http://localhost:'+port);
 })
 
 
